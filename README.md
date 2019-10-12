@@ -1,5 +1,7 @@
 # tensorflow_learn_1
 learn how to use tensorflow
+[https://blog.csdn.net/zmjames2000/article/category/9351992](https://blog.csdn.net/zmjames2000/article/category/9351992)
+==================================================
 
 ## demo1_mnist_logist.py
 简单的用tensorflow 搭建简单的网络结构
@@ -18,7 +20,7 @@ fc1   =    tf.nn.relu(tf.matmul(h_pool2_flat, W_fc1) + b_fc1)   # 需要定义w_
 dropout  h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)<br>
 fc2   =    y = tf.matmul(h_fc1_drop, W_fc2) + b_fc2   #需要定义w_fc2, b_fc2<br>
 
-## demo3_cifar.py
+## demo3_cifar.py  可以学习以下如何定义CNN和使用CNN
 简单的使用 tensorflow 训练cifar10数据集<br>
 def show_conv_results(data, filename=None):<br>
 def show_weights(W, filename=None):<br>
